@@ -1,14 +1,24 @@
 🎮 Real-Time Gaming Leaderboard & Analytics System
 
+
+
+
 A backend system designed to simulate how real online gaming platforms (such as Teen Patti, Rummy, etc.) store gameplay data, process match results, generate rankings, and compute daily analytics.
+
 This project demonstrates backend engineering, SQL-based analytics, REST API design, and data modeling commonly used in game data pipelines.
 
 🚀 Features
+
 Submit player match results (score, game type, duration)
+
 Real-time leaderboard sorted by total score
+
 Daily analytics: top player, total matches, average score
+
 REST API with auto documentation (Swagger/OpenAPI)
+
 SQL schema optimized for ranking & aggregation
+
 Sample dataset generator for testing
 
 🧪 API Endpoints
@@ -89,19 +99,28 @@ uvicorn main:app --reload
 ]
 
 🧭 Future Enhancements
+
 Redis caching for leaderboard
+
 Kafka for real-time event streaming
+
 Authentication & roles (admin / player)
+
 Full frontend dashboard (React/Next.js)
 
 👤 Author
+
 Divyanshu Gautam
+
 📧 Email: div911975@gmail.com
 🔗 GitHub: https://github.com/dishu39
 
 ⭐ Support
+
 If this project helps you, consider giving it a star ⭐ on GitHub — it helps visibility.
+
 Want me to also generate:
+
 LICENSE file
 
 Project GIF demo badge
